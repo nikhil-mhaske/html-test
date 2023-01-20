@@ -8,6 +8,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.container {
+    width: 90%;
+    margin: auto auto;
+}
 
 html {
     font-size: 62.5%;
@@ -16,4 +20,162 @@ html {
 .flex {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    gap: 6.6rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* CSS for Header*/
+header {
+    min-height: 8rem;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo img,
+.logo h1 {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #2947A9;
+}
+
+.italic-font {
+    font-style: italic;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+}
+
+.navbar a {
+    display: inline-block;
+    text-decoration: none;
+
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #14171F;
+}
+
+.navbar a:active,
+.navbar a:hover {
+    color: #f9995d;
+    font-weight: 600;
+}
+
+/*CSS for Hero Section*/
+.hero {
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 16.58%, rgba(255, 255, 255, 0) 72.38%), url('../images/Hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-left {
+    font-weight: 600;
+    font-size: 7.2rem;
+    color: #292E3D;
+    padding-left: 5%;
+}
+
+
+.hero-right {
+    justify-content: end;
+    align-self: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.featured {
+    width: 41.6rem;
+    height: 19rem;
+    background-color: #3559C7;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 0;
+}
+
+.featured button {
+    width: 50%;
+    font-weight: 400;
+    font-size: 1.8rem;
+    padding: .9rem 0;
+    outline: none;
+    background-color: #292E3D;
+    color: #ffffff;
+}
+
+.featured h5 {
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
+.featured p {
+    font-weight: 400;
+    font-size: 2.4rem;
+    padding-bottom: 2.6rem;
+}
+
+/*CSS For reputation Section*/
+.reputation {
+    font-size: 3.6rem;
+}
+
+.reputation p {
+    font-weight: 700;
+    color: #292E3D;
+    padding: 6rem 0;
+    text-align: center;
+}
+
+.grid-three-column {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 70%;
+    margin: 0 auto 8.4rem auto;
+}
+
+.grid-1 {
+    text-align: left;
+    padding: 2rem;
+    border: 0.14rem solid #E0E3EB;
+    border-radius: .4rem;
+}
+
+.grid-1 img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.grid-1 h5 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #3D445C;
+    padding-top: 1.8rem;
+}
+
+.grid-1 p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #858EAD;
+    text-align: left;
+    padding:1.8rem 0;
 }
