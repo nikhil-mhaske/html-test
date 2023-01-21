@@ -403,7 +403,7 @@ h1 {
     grid-column: 1 / span 2;
 }
 
-.grid-navigation div{
+.grid-navigation div {
     background-color: #FFFFFF;
     margin: auto 0;
 }
@@ -412,8 +412,88 @@ h1 {
     width: 100%;
     font-weight: 400;
     font-size: 1.8rem;
-    padding: .9rem 0;
+    padding: 1rem 0;
     outline: none;
     background-color: #292E3D;
     color: #ffffff;
+}
+
+/*Contact Us CSS*/
+.contact {
+    padding: 6rem 0;
+    width: 100%;
+    background: #F6F8F7;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #292E3D;
+}
+
+.box {
+    max-width: 70rem;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.box form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 1rem .8rem;
+    border: .1rem solid #E0E3EB;
+    border-radius: .4rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #A3AAC2;
+}
+
+.contact h2 {
+    font-weight: 700;
+    font-size: 3.6rem;
+}
+
+.main-p {
+    font-weight: 400;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
+.input-half {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - .5rem);
+}
+
+
+.input-full {
+    width: 100%;
+}
+
+textarea {
+    height: 13.5rem;
+}
+
+.input-full p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #667299;
+    margin-top: .8rem;
+    text-align: left;
+}
+
+.box button {
+    padding: 1.6rem 10.3rem;
+    margin-top: 4rem;
+    background: #2947A9;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
 }

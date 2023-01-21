@@ -220,21 +220,36 @@
 
     <section class="contact">
         <h2>What can us do for you?</h2>
-        <p>We are ready to work on a project of any complexity whether it's commercial or residential.</p>
-        <form action="#">
-            <input type="text" placeholder="Your Name" id="name" name="name" required>
-            <input type="email" placeholder="Email" id="email" name="email" required>
-            <select name="reason" id="reason" placeholder="Reason for Contacting" required>
-                <option>Reason for Contacting</option>
-                <option>Commercial Project</option>
-                <option>Residential project</option>
-                <option>Quotation</option>
-            </select>
-            <input type="text" name="phoneno" id="phoneno" placeholder="Phone">
-            <textarea id="message" name="message" placeholder="Message"></textarea>
-            <p><span style="color: red;">*</span> Indicates a required field</p>
-            <button type="submit" value="submit">Submit</button>
-        </form>
+        <p class="main-p">We are ready to work on a project of any complexity<br>whether it's commercial or residential.</p>
+        <div class="box">
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-half">
+                        <input type="text" placeholder="Your Name&#42" id="name" name="name" required>
+                    </div>
+                    <div class="input-half">
+                        <input type="email" placeholder="Email&#42" id="email" name="email" required>
+                    </div>
+                    <div class="input-half">
+                        <select name="reason" id="reason" placeholder="Reason for Contacting&#42" required>
+                            <option>Reason for Contacting</option>
+                            <option>Commercial Project</option>
+                            <option>Residential project</option>
+                            <option>Quotation</option>
+                        </select>
+                    </div>
+                    <div class="input-half">
+                        <input type="text" name="phoneno" id="phoneno" placeholder="Phone">
+                    </div>
+                </div>
+                <div class="input-full">
+                    <textarea id="message" name="message" placeholder="Message"></textarea>
+                <p><span style="color: red;">*</span> Indicates a required field</p>
+                </div>
+                
+                <button type="submit" value="submit">Submit</button>
+            </form>
+        </div>
     </section>
 
     <section class="footer flex">
