@@ -220,7 +220,8 @@
 
     <section class="contact">
         <h2>What can us do for you?</h2>
-        <p class="main-p">We are ready to work on a project of any complexity<br>whether it's commercial or residential.</p>
+        <p class="main-p">We are ready to work on a project of any complexity<br>whether it's commercial or residential.
+        </p>
         <div class="box">
             <form action="#">
                 <div class="user-details">
@@ -244,38 +245,49 @@
                 </div>
                 <div class="input-full">
                     <textarea id="message" name="message" placeholder="Message"></textarea>
-                <p><span style="color: red;">*</span> Indicates a required field</p>
+                    <p><span style="color: red;">*</span> Indicates a required field</p>
                 </div>
-                
+
                 <button type="submit" value="submit">Submit</button>
             </form>
         </div>
     </section>
 
-    <section class="footer flex">
+    <section class="footer container">
         <div class="grid grid-two-column">
             <div class="company-details">
-                <p><span class="points">Address:</span> 6391 Elgin St. Celina, Delware 10299</p>
-                <p><span class="points">Phone:</span> +84 1102 2703</p>
-                <p><span class="points">Email:</span> hello@thebox.com</p>
-                <img src="images/logo-main" alt="The Box Logo">
-                <h1><span>The</span>Box</h1>
+                <p><span class="points">Address:</span> &nbsp; 6391 Elgin St. Celina, Delware 10299</p>
+                <p><span class="points">Phone:</span> &nbsp; &nbsp; +84 1102 2703</p>
+                <p><span class="points">Email:</span> &nbsp; &nbsp; &nbsp; hello@thebox.com</p>
+                <div class="logo">
+                    <img src="images/logo-main" alt="The Box Logo">
+                    <h1><span class="italic-font">The</span>Box</h1>
+                </div>
             </div>
             <div class="newsletter">
-                <p class="points">Newsletter:</p>
-                <form action="#">
-                    <input type="email" placeholder="Email" id="email" name="email" required>
-                    <button type="submit" value="submit">Subscribe</button>
-                </form>
-                <p class="points">Social:</p>
 
-                <!-- Social Icons here -->
+                <p class="points">Newsletter:</p>
+                <div class="subscribe">
+                    <form action="#">
+                        <input type="email" placeholder="Your Email Here" id="email" name="email" class="float-left">
+                        <button type="submit" value="submit" class="float-right">Subscribe</button>
+                    </form>
+                </div>
+                <div class="social">
+                    <p class="points">Social:</p>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="copyright">
-        <p>TheBox Company © 2022. All Rights Reserved</p>
+        <div class="credits container">
+            <p>TheBox Company © 2022. All Rights Reserved</p>
+        </div>
+        
     </section>
 </body>
 

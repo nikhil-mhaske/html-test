@@ -497,3 +497,87 @@ textarea {
     font-size: 1.8rem;
     text-align: center;
 }
+
+/*Footer CSS*/
+
+.footer {
+    font-weight: 400;
+    font-size: 2rem;
+    color: #292E3D;
+}
+
+.grid-two-column {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 8.5rem auto;
+}
+
+
+.footer p {
+    padding: 1.8rem 0;
+}
+
+.footer .points {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #2947A9;
+}
+
+.company-details .logo {
+    padding: 1.8rem 0;
+}
+
+.subscribe {
+    padding: 1rem 0 2rem 0;
+}
+
+.subscribe form input {
+    width: 60%;
+    border: .1rem solid #E0E3EB;
+    border-radius: 4px;
+    padding: 1rem .8rem;
+}
+
+.subscribe form button {
+    width: 38%;
+    padding: 1rem 2rem;
+    background: #F9995D;
+    border-radius: .4rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    border-style: none;
+    margin-left: .1rem;
+}
+
+
+.float-right {
+    float: right;
+}
+
+/*Social Icons*/
+.social p .fa {
+    padding: 2rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    background-color: #14171F;
+    color: #FFFFFF;
+    border-radius: 50%;
+    width: 6rem;
+}
+
+
+/*Copyright CSS*/
+.copyright {
+    height: 7rem;
+    background: #2947A9;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.copyright p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #FFFFFF;
+
+}
