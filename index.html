@@ -11,15 +11,22 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
 
-    <!--Icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 
 </head>
 
 <body>
+    <!-- Javascript -->
+    <script src="js/index.js"></script>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!--Header-->
-    <header class="flex container">
+    <header class="header flex container">
         <div class="logo">
             <img src="images/logo-main" alt="The Box Logo">
             <h1><span class="italic-font">The</span>Box</h1>
@@ -33,6 +40,10 @@
                 <li><a href="#">Contact Us</a></li>
             </ul>
         </nav>
+        <div class="mobile-navbar-btn">
+            <ion-icon name="grid-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
     </header>
 
     <!--Hero-->
@@ -96,7 +107,7 @@
     <!--Services-->
     <section class="services">
         <p>Services</p>
-        <div class="grid grid-three-column">
+        <div class="grid grid-three-column services-column">
             <div class="grid-2 white">
                 <img src="images/s-1.png" alt="">
                 <hr class="divider" />
@@ -171,10 +182,11 @@
         </div>
     </section>
 
+    <!--Call to Action-->
     <section class="call-to-action flex">
         <div class="call-info">
             <h3>Free consultation with exceptional quality</h3>
-            <p>Just one call away: +84 1102 2703</p>
+            <p>Just one call away: <a href="tel:+84 1102 2703">+84 1102 2703</a></p>
         </div>
         <div class="call-button">
             <button>Get your consultation</button>
