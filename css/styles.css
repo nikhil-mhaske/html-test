@@ -249,8 +249,8 @@ h1 {
 }
 
 .services .grid-three-column {
-    gap: 4.8rem 9.8rem;
-    max-width: 70%;
+    max-width:70%;
+    gap: auto;
 }
 
 .grid-2 {
@@ -289,7 +289,133 @@ h1 {
 }
 
 /*Experience CSS*/
+.experience {
+    height: fit-content;
+    width: 80%;
+    margin: 0 auto 5.7rem auto;
+}
 
+.grid-left {
+    position: relative;
+    height: 74.3rem;
+}
+
+.count-box {
+    position: relative;
+    height: 15.5rem;
+    padding: 3rem;
+    margin: 2rem;
+    background-color: white;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1), 0px 4px 6px -2px rgba(17, 24, 39, 0.05);
+    border-radius: 4px;
+}
+
+.count-box h1 {
+    font-weight: 600;
+    font-size: 7.2rem;
+    color: #292E3D;
+
+}
+
+.count-box p {
+    font-weight: 400;
+    font-size: 2.4rem;
+    color: #667299;
+    margin: 3rem 0 0 1.6rem;
+    padding-left: 1rem;
+    border-left: .7rem solid #F9995D;
+}
+
+.right-illus img {
+    position: absolute;
+    right: -4rem;
+    top: -4rem;
+    width: 9.7rem;
+    height: 9.7rem;
+}
+
+.left-illus img {
+    position: absolute;
+    left: -5rem;
+    top: -5rem;
+    width: 9.7rem;
+    height: 9.7rem;
+}
+
+.bottom-illus img {
+    position: absolute;
+    right: -6rem;
+    bottom: -6rem;
+    width: 9.7rem;
+    height: 9.7rem;
+}
+
+.grid1 {
+    position: absolute;
+    left: calc(60% - 28rem/2 - 6.8rem);
+    top: 12.2rem;
+    z-index: 99;
+}
+
+.grid2 {
+    position: absolute;
+    width: 38.1rem;
+    left: calc(60% - 36.1rem/2 - 32.75rem);
+    top: 22.1rem;
+}
+
+.grid3 {
+    position: absolute;
+    width: 27.6rem;
+    left: calc(60% - 27.6rem/2 - 12.4rem);
+    top: 36.4rem;
+    z-index: 99;
+
+}
+
+.grid4 {
+    position: absolute;
+    width: 35.3rem;
+    left: calc(60% - 33.3rem/2 - 29.25rem);
+    top: 46.9rem;
+
+}
+
+.exp-info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.exp-info h1 {
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: 7rem;
+
+    color: #2947A9;
+
+}
+
+.exp-info p {
+    font-weight: 400;
+    font-size: 2rem;
+    padding: 4rem 0;
+    color: #525B7A;
+
+}
+
+.exp-info button {
+    padding: 1.6rem 2rem;
+    background: #2947A9;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.8rem;
+    border-style: none;
+
+}
 
 /*Call to action CSS*/
 .call-to-action {
@@ -491,6 +617,7 @@ textarea {
     padding: 1.6rem 10.3rem;
     margin-top: 4rem;
     background: #2947A9;
+    border-style: none;
     border-radius: 2px;
     color: #FFFFFF;
     font-weight: 600;
@@ -555,7 +682,7 @@ textarea {
 }
 
 /*Social Icons*/
-.social p .fa {
+.social .fa {
     padding: 2rem 2rem;
     text-align: center;
     text-decoration: none;
