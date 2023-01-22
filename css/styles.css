@@ -846,3 +846,112 @@ textarea {
         width: 90%;
     }
 }
+
+/*Mobile Responsive CSS*/
+@media only screen and (max-width: 768px){
+    html {
+        font-size: 50%;
+    }
+
+    .grid-three-column{
+        grid-template-columns: 1fr;
+    }
+
+    /*Responsive Header*/
+
+    .mobile-navbar-btn {
+        display: block;
+        z-index: 999;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .header nav {
+        /*display: none;*/
+        width: 100%;
+        height: 100vh;
+        background: #1f2937;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /*transition*/
+        transform: translatex(100%);
+        transition: all 0.5s linear;
+
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .active .header nav {
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
+        display: block;
+    }
+
+    .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
+        display: none;
+    }
+
+    /*Hero Responsive CSS*/
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: fit-content;
+        background-size: contain;
+    }
+
+    .hero-left {
+        padding-left: 0;
+    }
+
+    .hero-left h2 {
+        font-size: 3rem;
+        padding: 2rem 0 10rem 0;
+    }
+
+    .featured {
+        margin: auto;
+    }
+
+    /*Experience Responsive CSS*/
+    .grid1 {
+        left: calc(100% - 28rem/2 - 10.8rem);
+        width: 30rem;
+    }
+
+    .grid2 {
+        left: calc(100% - 20.1rem/2 - 29.75rem);
+    }
+
+    .grid3 {
+        left: calc(100% - 27.6rem/2 - 9.4rem);
+    }
+
+    .grid4 {
+        left: calc(100% - 25.3rem/2 - 26.25rem);
+    }
+
+    .vertical-menu ul{
+        padding-left: 0;
+    }
+}
